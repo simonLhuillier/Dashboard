@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.header-color {color: rgb(131,158,118);
+}
+
+.landing-grid {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.projects-grid {
+  display: flex;
+}
+
+/* Resume Page css */
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+  opacity: .8;
+}
+.resume-left-col {
+  color: #27221F;
+  background: white;
+  opacity: .8;
+  text-align: center;
+  margin: auto;
+}
+
+
+.contact-body {
+  opacity: .8;
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+  padding: 2em;
+}
+
+.nav{
+  color: rgb(131,158,118);
+}
+
+.img{
+  border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 1090px;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 35%;
+}
+
+.contact-body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: #27221F;
+  color: rgb(4, 51, 25);
+  padding: 2em;
+  opacity: .8;
+  text-align: center;
+  display: flex;
+}
+h1{
+  font-family: 'BeonRegular'; 
+         color: rgb(131,158,118);
+}
+
+h2{
+  font-family: 'BeonRegular'; 
+         color: rgb(131,158,118);
+}
+
+h3{
+  font-family: 'BeonRegular'; 
+         color: rgb(131,158,118);
+}
+
+h4{
+  font-family: 'BeonRegular'; 
+         color: rgb(131,158,118);
+}

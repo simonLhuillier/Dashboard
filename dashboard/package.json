@@ -1,0 +1,43 @@
+{
+  "name": "dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@blueprintjs/core": "^3.14.1",
+    "@blueprintjs/table": "^3.4.1",
+    "@material-ui/core": "^3.9.2",
+    "@types/react": "^16.8.7",
+    "@types/react-dom": "^16.8.2",
+    "react": "^16.8.4",
+    "react-calendar": "^2.18.1",
+    "react-dom": "^16.8.4",
+    "react-google-calendar-api": "^1.0.10",
+    "react-mdl": "^1.11.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.8",
+    "react-simple-maps": "^0.12.1",
+    "recharts": "^1.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@storybook/react": "^5.0.1",
+    "@storybook/addon-actions": "^5.0.1",
+    "@storybook/addon-links": "^5.0.1"
+  }
+}
