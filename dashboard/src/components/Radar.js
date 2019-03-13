@@ -5,22 +5,22 @@ import {
 
 const data = [
     {
-      subject: 'Plastic', A: 120, B: 110, fullMark: 150,
+      subject: 'Rock', A: 120, B: 110, fullMark: 150,
     },
     {
-      subject: 'Paper', A: 78, B: 130, fullMark: 150,
+      subject: 'Techno', A: 78, B: 130, fullMark: 150,
     },
     {
-      subject: 'Glass', A: 86, B: 130, fullMark: 150,
+      subject: 'Classical', A: 86, B: 130, fullMark: 150,
     },
     {
-      subject: 'Waste', A: 99, B: 100, fullMark: 150,
+      subject: 'Reggae', A: 99, B: 100, fullMark: 150,
     },
     {
-      subject: 'Organic', A: 85, B: 90, fullMark: 150,
+      subject: 'Pop', A: 85, B: 90, fullMark: 150,
     },
     {
-      subject: 'Nocif', A: 25, B: 85, fullMark: 150,
+      subject: 'ASMR', A: 25, B: 85, fullMark: 150,
     },
   ];
   
