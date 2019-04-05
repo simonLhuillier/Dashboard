@@ -26,6 +26,23 @@ const data = [
     name: 'Page G', uv: 3490, pv: 4300, amt: 2100,
   },
 ];
+/*
+constructor(props){
+  super(props);
+  const axios = require ('axios');
+axios.get('http://localhost:3000/get/album')
+.then(({ data }) => {
+for(var i= 0; i <= 6;i++)
+{
+this.setState(prevState => ({
+data_chart: [...prevState.data_chart, {name: '2006', rapListener: data[i].followers, electronicMusicListener: 4300, amt: 2100,}]
+}))
+}});
+  this.state= {   
+  data_chart : []
+}
+}
+*/
 
 export default class Example extends PureComponent {
   static jsfiddleUrl = 'https://jsfiddle.net/alidingling/c1rLyqj1/';
@@ -44,9 +61,9 @@ export default class Example extends PureComponent {
         <XAxis dataKey="name" />
         <YAxis />
         <Tooltip />
-        <Area type="monotone" dataKey="uv" stackId="1" stroke="#8884d8" fill="#8884d8" />
-        <Area type="monotone" dataKey="pv" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
-        <Area type="monotone" dataKey="amt" stackId="1" stroke="#ffc658" fill="#ffc658" />
+        <Area type="monotone" dataKey="Rock" stackId="1" stroke="#8884d8" fill="#8884d8" />
+        <Area type="monotone" dataKey="Techno" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
+        <Area type="monotone" dataKey="Classic" stackId="1" stroke="#ffc658" fill="#ffc658" />
       </AreaChart>
     );
   }

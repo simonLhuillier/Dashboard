@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import { Layout, Header, Navigation, Drawer, Content , IconButton, Menu, MenuItem} from 'react-mdl';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
 
@@ -14,6 +14,7 @@ class App extends Component {
             <Navigation >
                 <Link to="/" style={{fontWeigh : 'bold', color: 'black' }}>Home</Link>
                 <Link to="/admin" style={{fontWeigh :'bold', color: 'black' }}>Admin</Link>
+                
             </Navigation>
     </Header>
         <Drawer title={<Link style={{textDecoration: 'none', color: 'black' }} to="/">Dashboard</Link>}>

@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+.material-icons{
+  color: rgba(39, 34, 31, 0.342);
+}
+.mdl-tabs__tab-bar{
+  border: none !important;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
